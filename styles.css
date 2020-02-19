@@ -1,0 +1,28 @@
+a {
+  color: white;
+}
+
+body {
+  background-color: #3A1C64;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  padding: 0.5rem;
+}
+
+h1, h2 {
+  font-family: "Lobster", cursive;
+}
+
+h3 {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+button {
+  border: none;
+  background: #e8d82a;
+  padding: 0.5rem;
+  font-family: inherit;
+}
+
+/*# sourceMappingURL=styles.css.map */
