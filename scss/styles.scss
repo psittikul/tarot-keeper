@@ -23,3 +23,33 @@ button {
     padding: .5rem;
     font-family: inherit;
 }
+
+#blankSpread, #blankCard {
+    display: none;
+}
+
+#blankSpread {
+    margin-top: 1rem;
+}
+
+.tarot-card {
+    .card-title {
+        color: black;
+        margin-bottom: 0;
+        display: inline-block;
+    }
+    img.tarot-card-image {
+        margin: auto;
+        display: flex;
+        transition: .8s;
+    }
+    .reverse-card-btn {
+        background: none;
+        float: right;
+        cursor: pointer;
+        transition: .25s;
+        &:hover {
+            opacity: .6;
+        }
+    }
+}

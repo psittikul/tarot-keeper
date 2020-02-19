@@ -25,4 +25,32 @@ button {
   font-family: inherit;
 }
 
+#blankSpread, #blankCard {
+  display: none;
+}
+
+#blankSpread {
+  margin-top: 1rem;
+}
+
+.tarot-card .card-title {
+  color: black;
+  margin-bottom: 0;
+  display: inline-block;
+}
+.tarot-card img.tarot-card-image {
+  margin: auto;
+  display: flex;
+  transition: 1s;
+}
+.tarot-card .reverse-card-btn {
+  background: none;
+  float: right;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.tarot-card .reverse-card-btn:hover {
+  opacity: 0.6;
+}
+
 /*# sourceMappingURL=styles.css.map */
